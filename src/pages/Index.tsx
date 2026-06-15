@@ -172,7 +172,6 @@ export default function Index() {
 
   return (
     <main className="relative h-screen w-full overflow-hidden bg-background">
-      <GrainOverlay />
 
       <div
         ref={shaderContainerRef}
